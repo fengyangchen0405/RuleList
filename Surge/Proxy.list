@@ -1,0 +1,36 @@
+# Develop
+DOMAIN-SUFFIX,expo.io
+DOMAIN-SUFFIX,nativebase.io
+DOMAIN-SUFFIX,gumroad.com
+DOMAIN-SUFFIX,codesandbox.io
+
+# Blog
+DOMAIN-SUFFIX,daveceddia.com
+DOMAIN-SUFFIX,wateroot.com
+DOMAIN-SUFFIX,chromeba.net
+DOMAIN-SUFFIX,plumz.me
+DOMAIN-SUFFIX,1991421.cn
+
+# Shopping
+DOMAIN-SUFFIX,amazon.co.jp
+DOMAIN-SUFFIX,paypal.com
+
+# Private
+DOMAIN-KEYWORD,jav
+DOMAIN-KEYWORD,btsow
+DOMAIN-KEYWORD,btdig
+DOMAIN-KEYWORD,javdb
+DOMAIN-KEYWORD,torrentkitty
+DOMAIN-KEYWORD,stackblitz
+DOMAIN-SUFFIX,bt4g.org
+DOMAIN-SUFFIX,heihd.com
+DOMAIN-KEYWORD,missav
+DOMAIN-KEYWORD,jable
+DOMAIN-KEYWORD,7mmtv
+DOMAIN-SUFFIX,missav.com
+
+# Test
+DOMAIN-SUFFIX,ipip.net
+
+# Duolingo
+DOMAIN-KEYWORD,duolingo
