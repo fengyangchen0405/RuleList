@@ -16,7 +16,3 @@ DOMAIN-SUFFIX,amazon.co.jp
 
 # Test
 DOMAIN-SUFFIX,ipip.net
-
-# Levex
-DOMAIN-KEYWORD,levex
-DOMAIN-KEYWORD,bitevx
