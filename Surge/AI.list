@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,auth0.openai.com
 DOMAIN-SUFFIX,platform.openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX, sentry.io
+DOMAIN-SUFFIX,chatgpt.com
 
 # Add ai.com
 DOMAIN-SUFFIX,ai.com
