@@ -22,3 +22,6 @@ DOMAIN-SUFFIX,stripe.com
 
 # bard
 # DOMAIN,bard.google.com
+
+# perplexity
+DOMAIN-SUFFIX,perplexity.ai
