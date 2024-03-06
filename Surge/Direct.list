@@ -8,3 +8,6 @@ DOMAIN-SUFFIX,126.net
 
 # Private
 DOMAIN-KEYWORD,downloadtorrentfile
+
+# ToDesk
+DOMAIN-KEYWORD,todesk
