@@ -13,20 +13,21 @@ payload:
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 
   # Google Gemini
-  DOMAIN-SUFFIX,bard.google.com
-  DOMAIN,gemini.google.com
-  DOMAIN,makersuite.google.com
-  DOMAIN,generativelanguage.googleapis.com
-  DOMAIN,alkalimakersuite-pa.clients6.google.com
-  
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN,gemini.google.com
+  - DOMAIN,makersuite.google.com
+  - DOMAIN,generativelanguage.googleapis.com
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com
+
   # Android Studio Bot
-  DOMAIN,aida.googleapis.com
-  
+  - DOMAIN,aida.googleapis.com
+
   #cloude
-  DOMAIN-SUFFIX,claude.ai
-  DOMAIN-SUFFIX,anthropic.com
-  DOMAIN-SUFFIX,hsforms.net
-  
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,hsforms.net
+
   # Jetbrains AI Assistant
-  DOMAIN-SUFFIX,grazie.aws.intellij.net
-  DOMAIN-SUFFIX,grazie.ai
+  - DOMAIN-SUFFIX,grazie.aws.intellij.net
+  - DOMAIN-SUFFIX,grazie.ai
+

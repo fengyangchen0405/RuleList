@@ -1,4 +1,3 @@
 payload:
-  # Code
   - DOMAIN-SUFFIX,codepen.io
-  
+  - DOMAIN-SUFFIX,codepenassets.com
