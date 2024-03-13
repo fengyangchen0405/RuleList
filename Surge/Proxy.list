@@ -18,3 +18,7 @@ DOMAIN-SUFFIX,amazon.co.jp
 
 # Test
 DOMAIN-SUFFIX,ipip.net
+
+# bn
+DOMAIN-KEYWORD,binance
+DOMAIN-SUFFIX,bnbstatic.com
