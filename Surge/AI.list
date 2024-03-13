@@ -24,6 +24,7 @@ DOMAIN-KEYWORD,claude
 
 # ai.com
 DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,grazie.ai
 
 # stripe.com
 DOMAIN-SUFFIX,invoice.stripe.com
@@ -39,3 +40,8 @@ DOMAIN-SUFFIX,www.google.com
 
 # perplexity
 DOMAIN-SUFFIX,perplexity.ai
+
+# bn
+DOMAIN-KEYWORD,binance
+DOMAIN-SUFFIX,bnbstatic.com
+
