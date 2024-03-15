@@ -1,3 +1,9 @@
+DOMAIN-SUFFIX,mem.ai,🌀 𝑨𝒖𝒕𝒐𝒎𝒂𝒕𝒊𝒄
+DOMAIN-SUFFIX,googletagmanager.com,🌀 𝑨𝒖𝒕𝒐𝒎𝒂𝒕𝒊𝒄
+
+# Test
+DOMAIN-SUFFIX,ipip.net
+
 # Develop
 DOMAIN-SUFFIX,expo.io
 DOMAIN-SUFFIX,nativebase.io
@@ -15,9 +21,6 @@ DOMAIN-SUFFIX,1991421.cn
 
 # Shopping
 DOMAIN-SUFFIX,amazon.co.jp
-
-# Test
-DOMAIN-SUFFIX,ipip.net
 
 # bn
 DOMAIN-KEYWORD,binance
