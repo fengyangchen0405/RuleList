@@ -1,5 +1,9 @@
-# Work
+DOMAIN-SUFFIX,comate.baidu.com
+
+# Caidao
 DOMAIN-KEYWORD,shcaidao
+DOMAIN-SUFFIX,52emp.com
+DOMAIN-KEYWORD,caidaocloud
 
 # Misc
 DOMAIN-KEYWORD,todesk
@@ -11,6 +15,3 @@ DOMAIN-KEYWORD,downloadtorrentfile
 
 # ToDesk
 DOMAIN-KEYWORD,todesk
-
-# comate
-DOMAIN-SUFFIX,comate.baidu.com
