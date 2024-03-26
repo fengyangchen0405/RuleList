@@ -1,5 +1,9 @@
 DOMAIN-SUFFIX,mem.ai
 DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-KEYWORD,z-lib
+DOMAIN-SUFFIX,csb.app
+DOMAIN-SUFFIX,wallhaven.cc
+DOMAIN-KEYWORD,raycast
 
 # Test
 DOMAIN-SUFFIX,ipip.net
@@ -11,6 +15,8 @@ DOMAIN-SUFFIX,gumroad.com
 DOMAIN-SUFFIX,codesandbox.io
 DOMAIN-SUFFIX,codepen.io
 DOMAIN-SUFFIX,css-tricks.com
+DOMAIN-KEYWORD,vsassets
+DOMAIN-SUFFIX,warp.dev
 
 # Blog
 DOMAIN-SUFFIX,daveceddia.com
