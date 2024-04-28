@@ -1,3 +1,34 @@
 payload:
+  - DOMAIN-SUFFIX,mem.ai
+  - DOMAIN-SUFFIX,googletagmanager.com
+  - DOMAIN-KEYWORD,z-lib
+  - DOMAIN-SUFFIX,csb.app
+  - DOMAIN-SUFFIX,wallhaven.cc
+  - DOMAIN-KEYWORD,raycast
+
+# Test
+  - DOMAIN-SUFFIX,ipip.net
+
+# Develop
+  - DOMAIN-SUFFIX,expo.io
+  - DOMAIN-SUFFIX,nativebase.io
+  - DOMAIN-SUFFIX,gumroad.com
+  - DOMAIN-SUFFIX,codesandbox.io
   - DOMAIN-SUFFIX,codepen.io
-  - DOMAIN-SUFFIX,codepenassets.com
+  - DOMAIN-SUFFIX,css-tricks.com
+  - DOMAIN-KEYWORD,vsassets
+  - DOMAIN-SUFFIX,warp.dev
+
+# Blog
+  - DOMAIN-SUFFIX,daveceddia.com
+  - DOMAIN-SUFFIX,wateroot.com
+  - DOMAIN-SUFFIX,chromeba.net
+  - DOMAIN-SUFFIX,plumz.me
+  - DOMAIN-SUFFIX,1991421.cn
+
+# Shopping
+  - DOMAIN-SUFFIX,amazon.co.jp
+
+# bn
+  - DOMAIN-KEYWORD,binance
+  - DOMAIN-SUFFIX,bnbstatic.com
