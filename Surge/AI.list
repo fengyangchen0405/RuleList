@@ -1,6 +1,5 @@
 # 参考https://github.com/limbopro/Profiles4limbo/blob/main/AI_Platforms.list
 
-
 # https://openai.com/
 # created by blackmatrix7 
 # repo:https://github.com/blackmatrix7/ios_rule_script
@@ -17,8 +16,7 @@ DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,chatgpt.com
 
-# https://claude.ai/
-# created by limbopro
+# claude
 # repo:https://github.com/limbopro/Profiles4limbo/
 DOMAIN-KEYWORD,claude
 
@@ -43,6 +41,7 @@ DOMAIN-SUFFIX,perplexity.ai
 
 # github copilot
 DOMAIN-KEYWORD,githubcopilot
+DOMAIN,copilot-proxy.githubusercontent.com
 
 # coze
 DOMAIN-KEYWORD,coze
