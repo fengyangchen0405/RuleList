@@ -40,3 +40,10 @@ DOMAIN-SUFFIX,www.google.com
 
 # perplexity
 DOMAIN-SUFFIX,perplexity.ai
+
+# github copilot
+DOMAIN-KEYWORD,githubcopilot
+
+# coze
+DOMAIN-KEYWORD,coze
+DOMAIN-KEYWORD,codeium
