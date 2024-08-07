@@ -32,3 +32,4 @@ payload:
 # bn
   - DOMAIN-KEYWORD,binance
   - DOMAIN-SUFFIX,bnbstatic.com
+  - DOMAIN-KEYWORD,bt4g
