@@ -3,7 +3,7 @@ name: Convert Surge to Clash
 on:
   push:
     paths:
-      - 'Surge/**/*.list'
+      - 'Surge/*.list'
 
 jobs:
   convert:
@@ -15,9 +15,9 @@ jobs:
 
     - name: Convert Surge to Clash
       run: |
-        for file in Surge/**/*.list; do
+        for file in Surge/*.list; do
           filename=$(basename "$file" .list)
-          yaml_file="Clash/RuleSet${filename}.yaml"
+          yaml_file="Test/RuleSet${filename}.yaml"
           echo "payload:" > "$yaml_file"
           while IFS= read -r line; do
             if [[ $line == \#* ]]; then
