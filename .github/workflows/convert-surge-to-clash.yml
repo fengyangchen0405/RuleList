@@ -17,7 +17,7 @@ jobs:
       run: |
         for file in Surge/*.list; do
           filename=$(basename "$file" .list)
-          yaml_file="Test/RuleSet/${filename}.yaml"
+          yaml_file="Clash/RuleSet/${filename}.yaml"
           echo "payload:" > "$yaml_file"
           while IFS= read -r line; do
             if [[ $line == \#* ]]; then
@@ -33,7 +33,7 @@ jobs:
     - name: Sync folder 
       run: |
         # Delete .yaml files in Clash folder if corresponding .list file doesn't exist in Surge folder
-        for file in Test/RuleSet/*.yaml; do
+        for file in Clash/RuleSet/*.yaml; do
           base_filename=$(basename "$file" .yaml)
           if [ ! -f "Surge/${base_filename}.list" ]; then
             rm "$file"
@@ -45,7 +45,7 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add Test/RuleSet/*.yaml
+        git add Clash/RuleSet/*.yaml
         git commit -m "Automatically convert Surge Rule to Clash"
         git push
       env:
