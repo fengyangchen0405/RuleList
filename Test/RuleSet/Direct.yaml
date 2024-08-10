@@ -1,5 +1,6 @@
 payload:
-  - DOMAIN-SUFFIX,comate.baidu.com
+  - DOMAIN-SUFFIX,dyndns.com
+  - DOMAIN-SUFFIX,baidu.com
   - DOMAIN-KEYWORD,todesk
   - DOMAIN-KEYWORD,parsec
   - DOMAIN-SUFFIX,126.net
