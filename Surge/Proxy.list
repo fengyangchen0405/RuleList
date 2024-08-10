@@ -31,3 +31,4 @@ DOMAIN-SUFFIX,api.github.com
 DOMAIN-SUFFIX,githubusercontent.com,
 DOMAIN-KEYWORD,wakatime
 DOMAIN-SUFFIX,omnivore.app
+DOMAIN-KEYWORD,github
