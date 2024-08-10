@@ -15,17 +15,31 @@ jobs:
 
     - name: Convert Surge to Clash
       run: |
+        # Convert .list files in A folder to .yaml in B folder
         for file in Surge/*.list; do
           filename=$(basename "$file" .list)
           yaml_file="Test/RuleSet/${filename}.yaml"
           echo "payload:" > "$yaml_file"
           while IFS= read -r line; do
             if [[ $line == \#* ]]; then
-              echo "$line" >> "$yaml_file"
-            else
+              # Add indentation to comment lines
+              echo "  $line" >> "$yaml_file"
+            elif [[ $line == DOMAIN* ]]; then
+              # Add lines starting with DOMAIN with the required format
               echo "  - $line" >> "$yaml_file"
             fi
           done < "$file"
+        done
+
+    - name: Sync folder 
+      run: |
+        # Delete .yaml files in CLash folder if corresponding .list file doesn't exist in Surge folder
+        for file in CLash/RuleSet/*.yaml; do
+          base_filename=$(basename "$file" .yaml)
+          if [ ! -f "A/${base_filename}.list" ]; then
+            rm "$file"
+            echo "Deleted $file because corresponding .list file does not exist in Surge folder."
+          fi
         done
 
     - name: Commit and push changes
