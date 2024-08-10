@@ -15,7 +15,6 @@ jobs:
 
     - name: Convert Surge to Clash
       run: |
-        # Convert .list files in A folder to .yaml in B folder
         for file in Surge/*.list; do
           filename=$(basename "$file" .list)
           yaml_file="Test/RuleSet/${filename}.yaml"
@@ -33,10 +32,10 @@ jobs:
 
     - name: Sync folder 
       run: |
-        # Delete .yaml files in CLash folder if corresponding .list file doesn't exist in Surge folder
-        for file in CLash/RuleSet/*.yaml; do
+        # Delete .yaml files in Clash folder if corresponding .list file doesn't exist in Surge folder
+        for file in Test/RuleSet/*.yaml; do
           base_filename=$(basename "$file" .yaml)
-          if [ ! -f "A/${base_filename}.list" ]; then
+          if [ ! -f "Surge/${base_filename}.list" ]; then
             rm "$file"
             echo "Deleted $file because corresponding .list file does not exist in Surge folder."
           fi
@@ -47,7 +46,7 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git add Test/RuleSet/*.yaml
-        git commit -m "Automatically convert surge to clash"
+        git commit -m "Automatically convert Surge Rule to Clash"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
