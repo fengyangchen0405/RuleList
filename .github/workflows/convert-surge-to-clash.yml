@@ -17,7 +17,7 @@ jobs:
       run: |
         for file in Surge/**/*.list; do
           filename=$(basename "$file" .list)
-          yaml_file="Test/${filename}.yaml"
+          yaml_file="Clash/RuleSet${filename}.yaml"
           echo "payload:" > "$yaml_file"
           while IFS= read -r line; do
             if [[ $line == \#* ]]; then
