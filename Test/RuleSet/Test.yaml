@@ -1,1 +1,4 @@
-
+payload:
+  - DOMAIN-SUFFIX,test.ai
+  - DOMAIN-SUFFIX,666.ai
+  - DOMAIN-SUFFIX,7777.ai
