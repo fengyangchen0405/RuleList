@@ -1,4 +1,4 @@
-name: Convert .list to .yaml
+name: Convert Surge to Clash
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Convert .list files to .yaml
+    - name: Convert Surge to Clash
       run: |
         for file in Surge/**/*.list; do
           filename=$(basename "$file" .list)
