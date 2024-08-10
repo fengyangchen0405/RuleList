@@ -46,3 +46,7 @@ DOMAIN,copilot-proxy.githubusercontent.com
 # coze
 DOMAIN-KEYWORD,coze
 DOMAIN-KEYWORD,codeium
+
+# Jetbrains AI Assistant
+DOMAIN-SUFFIX,grazie.aws.intellij.net
+DOMAIN-SUFFIX,grazie.ai
