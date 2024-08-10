@@ -35,3 +35,5 @@ jobs:
         git add Test/RuleSet/*.yaml
         git commit -m "Automatically convert surge to clash"
         git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
