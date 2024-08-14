@@ -47,3 +47,5 @@ payload:
   - DOMAIN-SUFFIX,missav.com
   - DOMAIN-SUFFIX,bt4gprx.com
   - DOMAIN-KEYWORD,bt4g
+  - DOMAIN-SUFFIX,linear.app
+  - DOMAIN-KEYWORD,wappalyzer
