@@ -16,10 +16,6 @@ DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,chatgpt.com
 
-# claude
-# repo:https://github.com/limbopro/Profiles4limbo/
-DOMAIN-KEYWORD,claude
-
 # ai.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,grazie.ai
@@ -50,3 +46,5 @@ DOMAIN-KEYWORD,codeium
 # Jetbrains AI Assistant
 DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN-SUFFIX,grazie.ai
+
+DOMAIN-SUFFIX,openrouter.ai
