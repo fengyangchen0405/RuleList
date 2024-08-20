@@ -50,3 +50,4 @@ payload:
   - DOMAIN-SUFFIX,linear.app
   - DOMAIN-KEYWORD,wappalyzer
   - DOMAIN-KEYWORD,metacubex
+  - DOMAIN-SUFFIX,gitbook.io
