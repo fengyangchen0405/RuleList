@@ -5,7 +5,7 @@ payload:
   - DOMAIN-KEYWORD,parsec
   - DOMAIN-SUFFIX,126.net
   - DOMAIN-KEYWORD,downloadtorrentfile
-  - DOMAIN,router.stanleywind.org
+  - DOMAIN-KEYWORD,stanleywind
   # Work
   - DOMAIN-KEYWORD,shcaidao
   - DOMAIN-KEYWORD,shcaidao
