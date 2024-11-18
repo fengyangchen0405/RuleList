@@ -1,11 +1,13 @@
 payload:
-  - DOMAIN-SUFFIX,dyndns.com
-  - DOMAIN-SUFFIX,baidu.com
   - DOMAIN-KEYWORD,todesk
   - DOMAIN-KEYWORD,parsec
-  - DOMAIN-SUFFIX,126.net
   - DOMAIN-KEYWORD,downloadtorrentfile
-  - DOMAIN-KEYWORD,stanleywind
+  # ddns
+  - DOMAIN-SUFFIX,oray.com
+  - DOMAIN-SUFFIX,666666.host
+  - DOMAIN-SUFFIX,3322.net
+  - DOMAIN-SUFFIX,ipip.net
+  - DOMAIN-SUFFIX,dyndns.com
   # Work
   - DOMAIN-KEYWORD,shcaidao
   - DOMAIN-KEYWORD,shcaidao
