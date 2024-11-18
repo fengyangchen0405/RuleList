@@ -4,7 +4,6 @@ DOMAIN-KEYWORD,z-lib
 DOMAIN-SUFFIX,csb.app
 DOMAIN-SUFFIX,wallhaven.cc
 DOMAIN-KEYWORD,raycast
-DOMAIN-SUFFIX,ipip.net
 DOMAIN-SUFFIX,expo.io
 DOMAIN-SUFFIX,nativebase.io
 DOMAIN-SUFFIX,gumroad.com
@@ -22,7 +21,6 @@ DOMAIN-SUFFIX,amazon.co.jp
 DOMAIN-KEYWORD,binance
 DOMAIN-SUFFIX,bnbstatic.com
 DOMAIN-SUFFIX,luckrnx09.com
-DOMAIN-SUFFIX,levex.com
 DOMAIN-KEYWORD,fastlink
 DOMAIN-KEYWORD,vercel
 DOMAIN-SUFFIX,unocss.dev
@@ -32,18 +30,8 @@ DOMAIN-SUFFIX,githubusercontent.com,
 DOMAIN-KEYWORD,wakatime
 DOMAIN-SUFFIX,omnivore.app
 DOMAIN-KEYWORD,github
-DOMAIN-KEYWORD,jav
-DOMAIN-KEYWORD,btsow
-DOMAIN-KEYWORD,btdig
-DOMAIN-KEYWORD,javdb
-DOMAIN-KEYWORD,torrentkitty
 DOMAIN-KEYWORD,stackblitz
-DOMAIN-SUFFIX,bt4g.org
 DOMAIN-SUFFIX,heihd.com
-DOMAIN-KEYWORD,missav
-DOMAIN-KEYWORD,jable
-DOMAIN-KEYWORD,7mmtv
-DOMAIN-SUFFIX,missav.com
 DOMAIN-SUFFIX,bt4gprx.com
 DOMAIN-KEYWORD,bt4g
 DOMAIN-SUFFIX,linear.app
@@ -53,3 +41,19 @@ DOMAIN-KEYWORD,gitbook
 DOMAIN-KEYWORD,reddit
 DOMAIN-SUFFIX,kpkuang.org
 DOMAIN-KEYWORD,scratch
+
+# private
+DOMAIN-KEYWORD,btsow
+DOMAIN-KEYWORD,btdig
+DOMAIN-KEYWORD,javdb
+DOMAIN-KEYWORD,torrentkitty
+DOMAIN-SUFFIX,bt4g.org
+DOMAIN-KEYWORD,missav
+DOMAIN-KEYWORD,jable
+DOMAIN-KEYWORD,7mmtv
+DOMAIN-SUFFIX,missav.com
+
+# work
+DOMAIN-SUFFIX,levex.com
+
+
