@@ -1,5 +1,3 @@
-DOMAIN-KEYWORD,todesk
-DOMAIN-KEYWORD,parsec
 DOMAIN-KEYWORD,downloadtorrentfile
 
 # ddns
@@ -10,7 +8,6 @@ DOMAIN-SUFFIX,ipip.net
 DOMAIN-SUFFIX,dyndns.com
 
 # Work
-DOMAIN-KEYWORD,shcaidao
 DOMAIN-KEYWORD,shcaidao
 DOMAIN-SUFFIX,52emp.com
 DOMAIN-KEYWORD,caidaocloud
