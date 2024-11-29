@@ -18,29 +18,14 @@ DOMAIN-SUFFIX,chromeba.net
 DOMAIN-SUFFIX,plumz.me
 DOMAIN-SUFFIX,1991421.cn
 DOMAIN-SUFFIX,amazon.co.jp
-DOMAIN-KEYWORD,binance
-DOMAIN-SUFFIX,bnbstatic.com
 DOMAIN-SUFFIX,luckrnx09.com
-DOMAIN-KEYWORD,fastlink
-DOMAIN-KEYWORD,vercel
 DOMAIN-SUFFIX,unocss.dev
-DOMAIN-SUFFIX,devv.ai
-DOMAIN-SUFFIX,api.github.com
-DOMAIN-SUFFIX,githubusercontent.com,
-DOMAIN-KEYWORD,wakatime
-DOMAIN-SUFFIX,omnivore.app
-DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,stackblitz
 DOMAIN-SUFFIX,heihd.com
-DOMAIN-SUFFIX,bt4gprx.com
-DOMAIN-KEYWORD,bt4g
 DOMAIN-SUFFIX,linear.app
 DOMAIN-KEYWORD,wappalyzer
 DOMAIN-KEYWORD,metacubex
-DOMAIN-KEYWORD,gitbook
-DOMAIN-KEYWORD,reddit
 DOMAIN-SUFFIX,kpkuang.org
-DOMAIN-KEYWORD,scratch
 
 # private
 DOMAIN-KEYWORD,btsow
@@ -48,6 +33,7 @@ DOMAIN-KEYWORD,btdig
 DOMAIN-KEYWORD,javdb
 DOMAIN-KEYWORD,torrentkitty
 DOMAIN-SUFFIX,bt4g.org
+DOMAIN-SUFFIX,bt4gprx.com
 DOMAIN-KEYWORD,missav
 DOMAIN-KEYWORD,jable
 DOMAIN-KEYWORD,7mmtv
