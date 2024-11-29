@@ -55,5 +55,6 @@ DOMAIN-SUFFIX,missav.com
 
 # work
 DOMAIN-SUFFIX,levex.com
+URL-REGEX,^(api\d+-)?(qa\d+)\.bitevx\.com$
 
 
