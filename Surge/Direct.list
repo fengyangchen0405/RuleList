@@ -22,3 +22,6 @@ DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,plexapp.com
 DOMAIN-SUFFIX,plex.direct
 DOMAIN-KEYWORD,plex
+
+# stanleywind.org
+DOMAIN-SUFFIX,docker.stanleywind.org
