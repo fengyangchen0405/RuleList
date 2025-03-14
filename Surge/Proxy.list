@@ -28,6 +28,9 @@ DOMAIN-KEYWORD,metacubex
 DOMAIN-SUFFIX,kpkuang.org
 DOMAIN-SUFFIX,threadreaderapp.com
 
+# develop
+DOMAIN,baidu.github.io
+
 # private
 DOMAIN-KEYWORD,btsow
 DOMAIN-KEYWORD,btdig
