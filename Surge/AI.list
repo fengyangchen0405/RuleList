@@ -10,4 +10,6 @@ DOMAIN-SUFFIX,deepseek.com
 DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,claudeusercontent.com
 
+# Google AI Studio
 DOMAIN,aistudio.google.com
+DOMAIN-SUFFIX,clients6.google.com
