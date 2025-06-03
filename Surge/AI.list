@@ -13,3 +13,6 @@ DOMAIN-SUFFIX,claudeusercontent.com
 # Google AI Studio
 DOMAIN,aistudio.google.com
 DOMAIN-SUFFIX,clients6.google.com
+
+# Grok
+DOMAIN-SUFFIX,grok.com
