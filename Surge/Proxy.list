@@ -39,15 +39,14 @@ DOMAIN-KEYWORD,btsow
 DOMAIN-KEYWORD,btdig
 DOMAIN-KEYWORD,javdb
 DOMAIN-KEYWORD,torrentkitty
-DOMAIN-SUFFIX,bt4g.org
-DOMAIN-SUFFIX,bt4gprx.com
+DOMAIN-KEYWORD,bt4g
 DOMAIN-KEYWORD,missav
 DOMAIN-KEYWORD,jable
 DOMAIN-KEYWORD,7mmtv
-DOMAIN-SUFFIX,missav.com
-DOMAIN-SUFFIX,memojav.com
+DOMAIN-KEYWORD,memojav
+DOMAIN-KEYWORD,missav
 
-# work
+# levex
 DOMAIN-SUFFIX,levex.com
 URL-REGEX,^(api\d+-)?(qa\d+)\.bitevx\.com$
 
