@@ -32,7 +32,7 @@ DOMAIN-SUFFIX,mermaid.live
 DOMAIN-SUFFIX,makecode.com
 DOMAIN-SUFFIX,ivonblog.com
 DOMAIN-KEYWORD,reddit
-DOMAIN,cdn.jsdelivr.net
+DOMAIN,cdn.jsdelivr.net/gh
 
 # develop
 DOMAIN,baidu.github.io
