@@ -6,14 +6,27 @@ DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN-SUFFIX,grazie.ai
 
-DOMAIN-SUFFIX,openrouter.ai
-DOMAIN-SUFFIX,deepseek.com
-DOMAIN-SUFFIX,groq.com
-DOMAIN-SUFFIX,claudeusercontent.com
-
 # Google AI Studio
 DOMAIN,aistudio.google.com
 DOMAIN-SUFFIX,clients6.google.com
 
+# Gemini
+domain,robinfrontend-pa.googleapis.com
+
+# Google antigravity
+DOMAIN-SUFFIX,googleapis.com
+PROCESS-NAME,antigravity.exe
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN-SUFFIX,featureassets.org
+
 # Grok
 DOMAIN-SUFFIX,grok.com
+
+# Claude
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# deepseek
+DOMAIN-SUFFIX,deepseek.com
+
+# Misc
+DOMAIN-SUFFIX,openrouter.ai
