@@ -10,9 +10,6 @@ DOMAIN-SUFFIX,grazie.ai
 DOMAIN,aistudio.google.com
 DOMAIN-SUFFIX,clients6.google.com
 
-# Gemini
-domain,robinfrontend-pa.googleapis.com
-
 # Google antigravity
 DOMAIN-SUFFIX,googleapis.com
 PROCESS-NAME,antigravity.exe
