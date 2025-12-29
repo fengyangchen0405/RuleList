@@ -33,6 +33,7 @@ DOMAIN-SUFFIX,makecode.com
 DOMAIN-SUFFIX,ivonblog.com
 DOMAIN-KEYWORD,reddit
 DOMAIN,cdn.jsdelivr.net
+DOMAIN-SUFFIX,gamma.app
 
 # develop
 DOMAIN,baidu.github.io
