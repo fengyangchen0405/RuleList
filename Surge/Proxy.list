@@ -35,6 +35,10 @@ DOMAIN-KEYWORD,reddit
 DOMAIN,cdn.jsdelivr.net
 DOMAIN-SUFFIX,gamma.app
 
+# 机场
+DOMAIN-KEYWORD,huacloud
+DOMAIN-SUFFIX,api-huacloud.dev
+
 # develop
 DOMAIN,baidu.github.io
 DOMAIN-SUFFIX,jsdelivr.net
