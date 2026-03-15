@@ -24,8 +24,7 @@ DOMAIN-SUFFIX,plexapp.com
 DOMAIN-SUFFIX,plex.direct
 DOMAIN-KEYWORD,plex
 
-# stanleywind.org
-DOMAIN-SUFFIX,docker.stanleywind.org
-
+# stanleywind
+DOMAIN-KEYWORD,stanleywind
 
 DOMAIN-SUFFIX,lovebabyforever.workers.dev
