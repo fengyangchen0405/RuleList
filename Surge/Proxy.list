@@ -47,18 +47,8 @@ DOMAIN-SUFFIX,api-huacloud.dev
 DOMAIN,baidu.github.io
 DOMAIN-SUFFIX,jsdelivr.net
 
-# private
-DOMAIN-KEYWORD,btsow
-DOMAIN-KEYWORD,btdig
-DOMAIN-KEYWORD,javdb
-DOMAIN-KEYWORD,torrentkitty
-DOMAIN-KEYWORD,bt4g
-DOMAIN-KEYWORD,missav
-DOMAIN-KEYWORD,jable
-DOMAIN-KEYWORD,7mmtv
-DOMAIN-KEYWORD,memojav
-DOMAIN-KEYWORD,missav
-
+# ip test
+DOMAIN-SUFFIX,ping0.cc
 
 # levex
 DOMAIN-SUFFIX,levex.com
