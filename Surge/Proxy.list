@@ -47,6 +47,7 @@ DOMAIN-SUFFIX,api-huacloud.dev
 # develop
 DOMAIN,baidu.github.io
 DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN-SUFFIX,heygen.com
 
 # ip test
 DOMAIN-SUFFIX,ping0.cc
