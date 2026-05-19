@@ -1,42 +1,134 @@
-# --- AI Services ---
+# --- AI Services (skk.moe/ai.conf 补充列表) ---
+# 定位：补充 skk.moe/ai.conf 未覆盖的 AI 服务
+# skk.moe 已覆盖: OpenAI/ChatGPT, Claude, Gemini, Grok, Perplexity,
+#   Meta AI, xAI, Poe, Groq, Dify, OpenRouter, OpenArt, Jasper, ClipDrop 等
+# 本列表专注: 桌面进程匹配、skk.moe 遗漏的域名、新兴 AI 服务
+# 最后更新: 2026-05-19
 
-# OpenAI / ChatGPT / Codex
-PROCESS-NAME,"/Applications/Codex.app"
-
-# Claude
-DOMAIN-SUFFIX,claudeusercontent.com
+# ====== 桌面应用进程匹配 (skk.moe 无此类规则) ======
 PROCESS-NAME,"/Applications/Claude.app"
+PROCESS-NAME,"/Applications/Codex.app"
+PROCESS-NAME,"/Applications/ChatGPT.app"
+PROCESS-NAME,"/Applications/Cursor.app"
+PROCESS-NAME,"/Applications/Windsurf.app"
 
-# Perplexity
-DOMAIN-KEYWORD,perplexity
+# ====== OpenAI 补充 (skk.moe 未覆盖的辅助域名) ======
+# ChatGPT 语音通话 (LiveKit)
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud
+# OpenAI 用户内容
+DOMAIN-SUFFIX,oaiusercontent.com
 
-# Google AI Studio
-DOMAIN,aistudio.google.com
-DOMAIN-SUFFIX,clients6.google.com
-DOMAIN-SUFFIX,ai.studio
+# ====== Claude 补充 ======
+DOMAIN-SUFFIX,claudeusercontent.com
 
-# Google Antigravity
-DOMAIN-SUFFIX,googleapis.com
+# ====== DeepSeek ======
+DOMAIN-SUFFIX,deepseek.com
+
+# ====== Cursor ======
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursorapi.com
+
+# ====== Windsurf / Codeium ======
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,windsurf.com
+DOMAIN-SUFFIX,windsurf.ai
+
+# ====== GitHub Copilot ======
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN,copilot-proxy.githubusercontent.com
+DOMAIN-SUFFIX,copilot.githubassets.com
+DOMAIN,api.individual.githubcopilot.com
+DOMAIN,api.business.githubcopilot.com
+
+# ====== JetBrains AI ======
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,grazie.aws.intellij.net
+
+# ====== Midjourney ======
+DOMAIN-SUFFIX,midjourney.com
+
+# ====== Hugging Face ======
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+
+# ====== Stability AI ======
+DOMAIN-SUFFIX,stability.ai
+
+# ====== Mistral ======
+DOMAIN-SUFFIX,mistral.ai
+
+# ====== Cohere ======
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,cohere.ai
+
+# ====== Together AI ======
+DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,together.xyz
+
+# ====== Fireworks AI ======
+DOMAIN-SUFFIX,fireworks.ai
+
+# ====== Replicate ======
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,replicate.delivery
+
+# ====== Runway (视频生成) ======
+DOMAIN-SUFFIX,runwayml.com
+
+# ====== ElevenLabs (语音 AI) ======
+DOMAIN-SUFFIX,elevenlabs.io
+
+# ====== Suno (音乐 AI) ======
+DOMAIN-SUFFIX,suno.com
+DOMAIN-SUFFIX,sunoapi.com
+
+# ====== Udio (音乐 AI) ======
+DOMAIN-SUFFIX,udio.com
+
+# ====== Ideogram (图像 AI) ======
+DOMAIN-SUFFIX,ideogram.ai
+
+# ====== Recraft (设计 AI) ======
+DOMAIN-SUFFIX,recraft.ai
+
+# ====== Bolt / Lovable / v0 (AI 编程) ======
+DOMAIN-SUFFIX,bolt.new
+DOMAIN-SUFFIX,stackblitz.com
+DOMAIN-SUFFIX,lovable.dev
+DOMAIN-SUFFIX,v0.dev
+
+# ====== Vercel AI SDK ======
+DOMAIN-SUFFIX,sdk.vercel.ai
+
+# ====== Grok 补充 ======
+DOMAIN-SUFFIX,grokipedia.com
+
+# ====== Google Antigravity 桌面端 ======
 PROCESS-NAME,antigravity.exe
 DOMAIN-SUFFIX,antigravity.google
 DOMAIN-SUFFIX,featureassets.org
 
-# Grok
-DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,grokipedia.com
-
-# DeepSeek
-DOMAIN-SUFFIX,deepseek.com
-
-# JetBrains AI Assistant
-DOMAIN-SUFFIX,grazie.aws.intellij.net
-DOMAIN-SUFFIX,grazie.ai
-
-# Cursor
-DOMAIN-SUFFIX,cursor.sh
-
-# OpenRouter
-DOMAIN-SUFFIX,openrouter.ai
-
-# Apple Intelligence
+# ====== Apple Intelligence ======
 DOMAIN-KEYWORD,apple-relay
+
+# ====== Supermaven (代码补全) ======
+DOMAIN-SUFFIX,supermaven.com
+
+# ====== Tabnine (代码补全) ======
+DOMAIN-SUFFIX,tabnine.com
+
+# ====== Replit AI ======
+DOMAIN-SUFFIX,replit.com
+DOMAIN-SUFFIX,repl.co
+
+# ====== NotDiamond (AI 路由) ======
+DOMAIN-SUFFIX,notdiamond.ai
+
+# ====== Kimi (月之暗面海外) ======
+DOMAIN-SUFFIX,kimi.ai
+
+# ====== 通义千问海外 ======
+DOMAIN-SUFFIX,tongyi.ai
