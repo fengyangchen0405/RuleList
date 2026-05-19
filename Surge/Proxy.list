@@ -38,7 +38,31 @@ DOMAIN-SUFFIX,confirmo.love
 DOMAIN-SUFFIX,y-too.com
 DOMAIN-SUFFIX,duyaoss.com
 DOMAIN-SUFFIX,linkcube.org
-DOMAIN-KEYWORD,discord
+DOMAIN-SUFFIX,vercel.app
+
+# > pikpak
+DOMAIN-SUFFIX,mypikpak.com
+
+# discord
+DOMAIN-SUFFIX,discord-attachments-uploads-prd.storage.googleapis.com
+
+DOMAIN,jable.tv
+DOMAIN,api.amplitude.com
+DOMAIN,m.cmx.im
+
+DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,surgee.me
+DOMAIN-SUFFIX,www.torrentmac.net
+DOMAIN-SUFFIX,dash.cloudflare.com
+DOMAIN-SUFFIX,api.cloudflare.com
+DOMAIN-SUFFIX,developers.cloudflare.com
+
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,docker.com
+DOMAIN-KEYWORD,mastodon
+DOMAIN-KEYWORD,techhub.social
+DOMAIN-KEYWORD,macked
+DOMAIN-KEYWORD,leensasf
 
 # 机场
 DOMAIN-KEYWORD,huacloud
