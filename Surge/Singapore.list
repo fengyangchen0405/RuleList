@@ -1,0 +1,10 @@
+# --- Singapore Node Rules ---
+# 需要走新加坡节点的服务（美国/香港不可用）
+# 最后更新: 2026-05-19
+
+# ====== Bybit ======
+DOMAIN-SUFFIX,bybdc6.com
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-SUFFIX,bybit.biz

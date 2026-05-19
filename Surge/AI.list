@@ -40,8 +40,6 @@ DOMAIN-SUFFIX,windsurf.ai
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN-SUFFIX,copilot.githubassets.com
-DOMAIN,api.individual.githubcopilot.com
-DOMAIN,api.business.githubcopilot.com
 
 # ====== JetBrains AI ======
 DOMAIN-SUFFIX,grazie.ai
