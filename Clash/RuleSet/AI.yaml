@@ -1,9 +1,0 @@
-payload:
-  # perplexity
-  - DOMAIN-SUFFIX,perplexity.ai
-  # Jetbrains AI Assistant
-  - DOMAIN-SUFFIX,grazie.aws.intellij.net
-  - DOMAIN-SUFFIX,grazie.ai
-  - DOMAIN-SUFFIX,openrouter.ai
-  - DOMAIN-SUFFIX,deepseek.com
-  - DOMAIN-SUFFIX,groq.com
