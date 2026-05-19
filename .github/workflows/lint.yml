@@ -1,0 +1,25 @@
+name: Lint Rules
+
+on:
+  push:
+    paths:
+      - "Surge/**"
+      - "scripts/validate.py"
+  pull_request:
+    paths:
+      - "Surge/**"
+      - "scripts/validate.py"
+
+jobs:
+  validate:
+    name: Syntax · Duplicates · Conflicts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run validation
+        run: python scripts/validate.py

@@ -8,13 +8,11 @@ DOMAIN-SUFFIX,claudeusercontent.com
 PROCESS-NAME,"/Applications/Claude.app"
 
 # Perplexity
-DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-KEYWORD,perplexity
 
 # Google AI Studio
 DOMAIN,aistudio.google.com
 DOMAIN-SUFFIX,clients6.google.com
-DOMAIN,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,ai.studio
 
 # Google Antigravity
@@ -41,6 +39,4 @@ DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,openrouter.ai
 
 # Apple Intelligence
-DOMAIN-SUFFIX,apple-relay.apple.com
-DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-KEYWORD,apple-relay
