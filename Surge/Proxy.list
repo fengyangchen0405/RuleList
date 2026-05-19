@@ -1,86 +1,48 @@
-DOMAIN-SUFFIX,mem.ai
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-KEYWORD,z-lib
+# --- Proxy ---
+
+# Development Tools
+DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN,cdn.jsdelivr.net
+DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,csb.app
-DOMAIN-SUFFIX,wallhaven.cc
-DOMAIN-KEYWORD,raycast
-DOMAIN-SUFFIX,expo.io
-DOMAIN-SUFFIX,nativebase.io
-DOMAIN-SUFFIX,gumroad.com
 DOMAIN-SUFFIX,codesandbox.io
 DOMAIN-SUFFIX,codepen.io
 DOMAIN-SUFFIX,css-tricks.com
-DOMAIN-KEYWORD,vsassets
-DOMAIN-SUFFIX,warp.dev
-DOMAIN-SUFFIX,daveceddia.com
-DOMAIN-SUFFIX,wateroot.com
-DOMAIN-SUFFIX,chromeba.net
-DOMAIN-SUFFIX,plumz.me
-DOMAIN-SUFFIX,1991421.cn
-DOMAIN-SUFFIX,amazon.co.jp
-DOMAIN-SUFFIX,luckrnx09.com
-DOMAIN-SUFFIX,unocss.dev
 DOMAIN-KEYWORD,stackblitz
-DOMAIN-SUFFIX,heihd.com
+DOMAIN-KEYWORD,vsassets
+DOMAIN-SUFFIX,expo.io
+DOMAIN-SUFFIX,nativebase.io
+DOMAIN-SUFFIX,unocss.dev
+DOMAIN-SUFFIX,warp.dev
 DOMAIN-SUFFIX,linear.app
-DOMAIN-KEYWORD,wappalyzer
-DOMAIN-KEYWORD,metacubex
-DOMAIN-SUFFIX,kpkuang.org
-DOMAIN-SUFFIX,threadreaderapp.com
-DOMAIN-SUFFIX,mermaidchart.com
-DOMAIN-SUFFIX,mermaid.live
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,docker.com
+DOMAIN,baidu.github.io
 DOMAIN-SUFFIX,makecode.com
-DOMAIN-SUFFIX,ivonblog.com
-DOMAIN-KEYWORD,reddit
-DOMAIN,cdn.jsdelivr.net
-DOMAIN-SUFFIX,gamma.app
-DOMAIN-SUFFIX,confirmo.love
-DOMAIN-SUFFIX,y-too.com
-DOMAIN-SUFFIX,duyaoss.com
-DOMAIN-SUFFIX,linkcube.org
-DOMAIN-SUFFIX,vercel.app
+DOMAIN-SUFFIX,daveceddia.com
 
-# > pikpak
-DOMAIN-SUFFIX,mypikpak.com
-
-# discord
-DOMAIN-SUFFIX,discord-attachments-uploads-prd.storage.googleapis.com
-
-DOMAIN,jable.tv
-DOMAIN,api.amplitude.com
-DOMAIN,m.cmx.im
-
-DOMAIN-SUFFIX,nssurge.com
-DOMAIN-SUFFIX,surgee.me
-DOMAIN-SUFFIX,www.torrentmac.net
+# Cloud / Infrastructure
 DOMAIN-SUFFIX,dash.cloudflare.com
 DOMAIN-SUFFIX,api.cloudflare.com
 DOMAIN-SUFFIX,developers.cloudflare.com
 
-DOMAIN-SUFFIX,docker.io
-DOMAIN-SUFFIX,docker.com
+# Social / Community
+DOMAIN-KEYWORD,reddit
 DOMAIN-KEYWORD,mastodon
 DOMAIN-KEYWORD,techhub.social
-DOMAIN-KEYWORD,macked
-DOMAIN-KEYWORD,leensasf
+DOMAIN,m.cmx.im
+DOMAIN-SUFFIX,discord-attachments-uploads-prd.storage.googleapis.com
 
-# 机场
-DOMAIN-KEYWORD,huacloud
-DOMAIN-SUFFIX,api-huacloud.dev
-
-# develop
-DOMAIN,baidu.github.io
-DOMAIN-SUFFIX,jsdelivr.net
+# Media / Entertainment
+DOMAIN-SUFFIX,wallhaven.cc
+DOMAIN-SUFFIX,heihd.com
+DOMAIN-SUFFIX,kpkuang.org
+DOMAIN-SUFFIX,mypikpak.com
+DOMAIN-SUFFIX,gamma.app
 DOMAIN-SUFFIX,heygen.com
+DOMAIN,api.amplitude.com
 
-# ip test
-DOMAIN-SUFFIX,ping0.cc
-
-# levex
-DOMAIN-SUFFIX,levex.com
-URL-REGEX,^(api\d+-)?(qa\d+)\.bitevx\.com$
-
-# plex
+# Plex (metadata / CDN)
 DOMAIN-SUFFIX,metadata-static.plex.tv
 DOMAIN-SUFFIX,metadata.provider.plex.tv
 DOMAIN-SUFFIX,provider.plex.tv
@@ -96,3 +58,52 @@ DOMAIN-SUFFIX,together.plex.tv
 DOMAIN-SUFFIX,community.plex.tv
 DOMAIN-SUFFIX,scrobbles.plex.tv
 DOMAIN-SUFFIX,features.plex.tv
+
+# Tools / Utilities
+DOMAIN-KEYWORD,raycast
+DOMAIN-KEYWORD,wappalyzer
+DOMAIN-SUFFIX,mem.ai
+DOMAIN-SUFFIX,mermaidchart.com
+DOMAIN-SUFFIX,mermaid.live
+DOMAIN-SUFFIX,threadreaderapp.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,gumroad.com
+DOMAIN-SUFFIX,ping0.cc
+
+# Surge
+DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,surgee.me
+
+# Proxy / VPN
+DOMAIN-KEYWORD,huacloud
+DOMAIN-SUFFIX,api-huacloud.dev
+DOMAIN-KEYWORD,metacubex
+
+# Mac Software
+DOMAIN-SUFFIX,www.torrentmac.net
+DOMAIN-KEYWORD,macked
+DOMAIN-KEYWORD,leensasf
+
+# Blogs / Personal Sites
+DOMAIN-SUFFIX,ivonblog.com
+DOMAIN-SUFFIX,luckrnx09.com
+DOMAIN-SUFFIX,wateroot.com
+DOMAIN-SUFFIX,chromeba.net
+DOMAIN-SUFFIX,plumz.me
+DOMAIN-SUFFIX,1991421.cn
+
+# Z-Library
+DOMAIN-KEYWORD,z-lib
+
+# Levex
+DOMAIN-SUFFIX,levex.com
+URL-REGEX,^(api\d+-)?(qa\d+)\.bitevx\.com$
+
+# Amazon JP
+DOMAIN-SUFFIX,amazon.co.jp
+
+# Other
+DOMAIN-SUFFIX,confirmo.love
+DOMAIN-SUFFIX,y-too.com
+DOMAIN-SUFFIX,duyaoss.com
+DOMAIN-SUFFIX,linkcube.org

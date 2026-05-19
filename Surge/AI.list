@@ -1,10 +1,15 @@
-# perplexity
-DOMAIN-KEYWORD,perplexity
-DOMAIN-SUFFIX,perplexity.ai
+# --- AI Services ---
 
-# Jetbrains AI Assistant
-DOMAIN-SUFFIX,grazie.aws.intellij.net
-DOMAIN-SUFFIX,grazie.ai
+# OpenAI / ChatGPT / Codex
+PROCESS-NAME,"/Applications/Codex.app"
+
+# Claude
+DOMAIN-SUFFIX,claudeusercontent.com
+PROCESS-NAME,"/Applications/Claude.app"
+
+# Perplexity
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-KEYWORD,perplexity
 
 # Google AI Studio
 DOMAIN,aistudio.google.com
@@ -12,7 +17,7 @@ DOMAIN-SUFFIX,clients6.google.com
 DOMAIN,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,ai.studio
 
-# Google antigravity
+# Google Antigravity
 DOMAIN-SUFFIX,googleapis.com
 PROCESS-NAME,antigravity.exe
 DOMAIN-SUFFIX,antigravity.google
@@ -22,23 +27,20 @@ DOMAIN-SUFFIX,featureassets.org
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grokipedia.com
 
-# openai
-PROCESS-NAME,"/Applications/Codex.app"
-
-# Claude
-DOMAIN-SUFFIX,claudeusercontent.com
-PROCESS-NAME,"/Applications/Claude.app"
-
-# deepseek
+# DeepSeek
 DOMAIN-SUFFIX,deepseek.com
 
-# Misc
-DOMAIN-SUFFIX,openrouter.ai
+# JetBrains AI Assistant
+DOMAIN-SUFFIX,grazie.aws.intellij.net
+DOMAIN-SUFFIX,grazie.ai
 
 # Cursor
 DOMAIN-SUFFIX,cursor.sh
 
-# > Apple Intelligence
+# OpenRouter
+DOMAIN-SUFFIX,openrouter.ai
+
+# Apple Intelligence
 DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-KEYWORD,apple-relay
