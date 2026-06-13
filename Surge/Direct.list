@@ -22,7 +22,8 @@ DOMAIN-KEYWORD,caidaocloud
 DOMAIN-KEYWORD,plex
 
 # Personal
-DOMAIN-KEYWORD,stanleywind
+DOMAIN-SUFFIX,stanleywind.org
+DOMAIN-SUFFIX,tailscale.com
 DOMAIN-SUFFIX,lovebabyforever.workers.dev
 
 # Misc
