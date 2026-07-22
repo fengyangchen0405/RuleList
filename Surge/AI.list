@@ -3,14 +3,14 @@
 # skk.moe 已覆盖: OpenAI/ChatGPT, Claude, Gemini, Grok, Perplexity,
 #   Meta AI, xAI, Poe, Groq, Dify, OpenRouter, OpenArt, Jasper, ClipDrop 等
 # 本列表专注: 桌面进程匹配、skk.moe 遗漏的域名、新兴 AI 服务
-# 最后更新: 2026-05-19
+# 最后更新: 2026-07-22
 
 # ====== 桌面应用进程匹配 (skk.moe 无此类规则) ======
-PROCESS-NAME,"/Applications/Claude.app"
-PROCESS-NAME,"/Applications/Codex.app"
-PROCESS-NAME,"/Applications/ChatGPT.app"
-PROCESS-NAME,"/Applications/Cursor.app"
-PROCESS-NAME,"/Applications/Windsurf.app"
+PROCESS-NAME,"/Applications/Claude.app/"
+PROCESS-NAME,"/Applications/Codex.app/"
+PROCESS-NAME,"/Applications/ChatGPT.app/"
+PROCESS-NAME,"/Applications/Cursor.app/"
+PROCESS-NAME,"/Applications/Windsurf.app/"
 
 # ====== OpenAI 补充 (skk.moe 未覆盖的辅助域名) ======
 # ChatGPT 语音通话 (LiveKit)
@@ -105,7 +105,7 @@ DOMAIN-SUFFIX,sdk.vercel.ai
 DOMAIN-SUFFIX,grokipedia.com
 
 # ====== Google Antigravity 桌面端 ======
-PROCESS-NAME,antigravity.exe
+PROCESS-NAME,"/Applications/Antigravity.app/"
 DOMAIN-SUFFIX,antigravity.google
 DOMAIN-SUFFIX,featureassets.org
 

@@ -7,7 +7,6 @@ DOMAIN-SUFFIX,csb.app
 DOMAIN-SUFFIX,codesandbox.io
 DOMAIN-SUFFIX,codepen.io
 DOMAIN-SUFFIX,css-tricks.com
-DOMAIN-KEYWORD,stackblitz
 DOMAIN-KEYWORD,vsassets
 DOMAIN-SUFFIX,expo.io
 DOMAIN-SUFFIX,nativebase.io
@@ -28,7 +27,7 @@ DOMAIN-SUFFIX,developers.cloudflare.com
 # Social / Community
 DOMAIN-KEYWORD,reddit
 DOMAIN-KEYWORD,mastodon
-DOMAIN-KEYWORD,techhub.social
+DOMAIN-SUFFIX,techhub.social
 DOMAIN,m.cmx.im
 DOMAIN-SUFFIX,discord-attachments-uploads-prd.storage.googleapis.com
 
@@ -61,7 +60,7 @@ DOMAIN-KEYWORD,huacloud
 DOMAIN-KEYWORD,metacubex
 
 # Mac Software
-DOMAIN-SUFFIX,www.torrentmac.net
+DOMAIN-SUFFIX,torrentmac.net
 DOMAIN-KEYWORD,macked
 DOMAIN-KEYWORD,leensasf
 
@@ -78,7 +77,7 @@ DOMAIN-KEYWORD,z-lib
 
 # Levex
 DOMAIN-SUFFIX,levex.com
-URL-REGEX,^(api\d+-)?(qa\d+)\.bitevx\.com$
+DOMAIN-SUFFIX,bitevx.com
 
 # Amazon JP
 DOMAIN-SUFFIX,amazon.co.jp

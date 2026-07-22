@@ -19,11 +19,11 @@ DOMAIN-SUFFIX,52emp.com
 DOMAIN-KEYWORD,caidaocloud
 
 # Plex (local)
-DOMAIN-KEYWORD,plex
+DOMAIN-SUFFIX,plex.tv
+DOMAIN-SUFFIX,plexapp.com
+DOMAIN-SUFFIX,plex.direct
 
 # Personal
-DOMAIN-SUFFIX,stanleywind.org
-DOMAIN-SUFFIX,tailscale.com
 DOMAIN-SUFFIX,lovebabyforever.workers.dev
 
 # Misc
