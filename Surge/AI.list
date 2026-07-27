@@ -130,3 +130,6 @@ DOMAIN-SUFFIX,kimi.ai
 
 # ====== 通义千问海外 ======
 DOMAIN-SUFFIX,tongyi.ai
+
+# ====== Jina ======
+DOMAIN-SUFFIX,jina.ai
