@@ -37,7 +37,7 @@ class ValidateCliTests(unittest.TestCase):
 
     def test_rejects_app_bundle_path_without_trailing_slash(self) -> None:
         result = self.run_validator(
-            {"AI.list": 'PROCESS-NAME,"/Applications/Claude.app"\n'}
+            {"AI-Process.list": 'PROCESS-NAME,"/Applications/Claude.app"\n'}
         )
 
         self.assertNotEqual(result.returncode, 0)
@@ -96,6 +96,34 @@ class ValidateCliTests(unittest.TestCase):
 
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("JP.list is not referenced by profile", result.stdout)
+
+    def test_split_ai_profile_requires_both_lists_on_ai_policy(self) -> None:
+        domain_reference = (
+            "RULE-SET,https://raw.githubusercontent.com/fengyangchen0405/"
+            "RuleList/main/Surge/AI.list,🤖 AI\n"
+        )
+        process_reference = (
+            "RULE-SET,https://raw.githubusercontent.com/fengyangchen0405/"
+            "RuleList/main/Surge/AI-Process.list,"
+        )
+        files = {
+            "AI.list": "DOMAIN-SUFFIX,claudeusercontent.com\n",
+            "AI-Process.list": 'PROCESS-NAME,"/Applications/Claude.app/"\n',
+        }
+        for policy in ("🤖 AI", "DIRECT", None):
+            with self.subTest(process_policy=policy):
+                profile = "[Rule]\n" + domain_reference
+                if policy is not None:
+                    profile += process_reference + policy + "\n"
+                result = self.run_validator(files, profile_content=profile)
+                if policy == "🤖 AI":
+                    self.assertEqual(result.returncode, 0, result.stdout)
+                else:
+                    self.assertNotEqual(result.returncode, 0)
+                    if policy is None:
+                        self.assertIn("AI-Process.list is not referenced", result.stdout)
+                    else:
+                        self.assertIn("AI-Process.list uses 'DIRECT'", result.stdout)
 
 
 if __name__ == "__main__":

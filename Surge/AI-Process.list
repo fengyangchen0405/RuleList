@@ -1,0 +1,10 @@
+# Surge Mac 专用 AI 桌面应用进程规则
+# 与 AI.list 一起引用，均指向 AI 策略；Clash/Mihomo 路由器只引用 AI.list
+# App Bundle 前缀路径必须以 / 结尾
+
+PROCESS-NAME,"/Applications/Claude.app/"
+PROCESS-NAME,"/Applications/Codex.app/"
+PROCESS-NAME,"/Applications/ChatGPT.app/"
+PROCESS-NAME,"/Applications/Cursor.app/"
+PROCESS-NAME,"/Applications/Windsurf.app/"
+PROCESS-NAME,"/Applications/Antigravity.app/"

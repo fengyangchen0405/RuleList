@@ -42,6 +42,7 @@ POLICY_BY_FILE = {
     "Direct.list": "DIRECT",
     "Proxy.list": "PROXY",
     "AI.list": "AI",
+    "AI-Process.list": "AI",
     "JP.list": "JAPAN",
     "Singapore.list": "SINGAPORE",
 }
@@ -50,6 +51,7 @@ EXPECTED_PROFILE_POLICIES = {
     "Direct.list": "DIRECT",
     "Proxy.list": "🚀 节点选择",
     "AI.list": "🤖 AI",
+    "AI-Process.list": "🤖 AI",
     "JP.list": "🇯🇵 日本节点",
     "Singapore.list": "🇸🇬 新加坡节点",
 }
