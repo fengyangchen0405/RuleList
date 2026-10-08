@@ -1,6 +1,7 @@
 # --- Proxy ---
 
 # Development Tools
+DOMAIN-SUFFIX,playwright.dev
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,csb.app
