@@ -4,7 +4,7 @@
 #   Meta AI, xAI, Poe, Groq, Dify, OpenRouter, OpenArt, Jasper, ClipDrop 等
 # 本列表专注: skk.moe 遗漏的域名、新兴 AI 服务，供 Surge 和 Clash/Mihomo 共用
 # Surge Mac 桌面进程规则见 AI-Process.list，需单独引用
-# 最后更新: 2026-10-08
+# 最后更新: 2026-10-10
 
 # ====== OpenAI 补充 (skk.moe 未覆盖的辅助域名) ======
 # ChatGPT 语音通话 (LiveKit)
@@ -21,9 +21,12 @@ DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,deepseek.com
 
 # ====== Cursor ======
+# 覆盖 api2.cursor.sh、api3.cursor.sh 等 API 子域名
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursorapi.com
+# 覆盖截图中的动态实例域名 *.us13.cursorvm.com
+DOMAIN-SUFFIX,cursorvm.com
 
 # ====== Windsurf / Codeium ======
 DOMAIN-SUFFIX,codeium.com
