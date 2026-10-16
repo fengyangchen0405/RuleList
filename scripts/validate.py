@@ -52,8 +52,8 @@ EXPECTED_PROFILE_POLICIES = {
     "Proxy.list": "🚀 节点选择",
     "AI.list": "🤖 AI",
     "AI-Process.list": "🤖 AI",
-    "JP.list": "🇯🇵 日本节点",
-    "Singapore.list": "🇸🇬 新加坡节点",
+    "JP.list": "🔯 日本故转",
+    "Singapore.list": "🔯 新加坡故转",
 }
 
 SURGE_DIR = Path(__file__).resolve().parent.parent / "Surge"

@@ -125,6 +125,26 @@ class ValidateCliTests(unittest.TestCase):
                     else:
                         self.assertIn("AI-Process.list uses 'DIRECT'", result.stdout)
 
+    def test_regional_rules_require_fallback_groups(self) -> None:
+        for filename, fallback, common in (
+            ("JP.list", "🔯 日本故转", "🇯🇵 日本节点"),
+            ("Singapore.list", "🔯 新加坡故转", "🇸🇬 新加坡节点"),
+        ):
+            for policy in (fallback, common):
+                with self.subTest(filename=filename, policy=policy):
+                    result = self.run_validator(
+                        {filename: "DOMAIN-SUFFIX,example.com\n"},
+                        profile_content=(
+                            "[Rule]\nRULE-SET,https://raw.githubusercontent.com/"
+                            f"fengyangchen0405/RuleList/main/Surge/{filename},{policy}\n"
+                        ),
+                    )
+                    if policy == fallback:
+                        self.assertEqual(result.returncode, 0, result.stdout)
+                    else:
+                        self.assertNotEqual(result.returncode, 0)
+                        self.assertIn(f"expected '{fallback}'", result.stdout)
+
 
 if __name__ == "__main__":
     unittest.main()

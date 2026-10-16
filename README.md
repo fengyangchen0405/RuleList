@@ -10,8 +10,8 @@
 | `Proxy.list` | `🚀 节点选择` |
 | `AI.list` | `🤖 AI` |
 | `AI-Process.list` | `🤖 AI`（仅 Surge Mac） |
-| `JP.list` | `🇯🇵 日本节点` |
-| `Singapore.list` | `🇸🇬 新加坡节点` |
+| `JP.list` | `🔯 日本故转` |
+| `Singapore.list` | `🔯 新加坡故转` |
 
 ## AI 规则引用
 
