@@ -78,7 +78,6 @@ DOMAIN-KEYWORD,z-lib
 
 # Levex
 DOMAIN-SUFFIX,levex.com
-AND,((DOMAIN-SUFFIX,bitevx.com),(NOT,((DOMAIN,git.bitevx.com))))
 
 # Amazon JP
 DOMAIN-SUFFIX,amazon.co.jp
