@@ -20,6 +20,15 @@ DOMAIN,baidu.github.io
 DOMAIN-SUFFIX,makecode.com
 DOMAIN-SUFFIX,daveceddia.com
 
+# Orca
+DOMAIN-SUFFIX,orca.dev
+DOMAIN-SUFFIX,onorca.dev
+
+# T3 Code
+DOMAIN,clerk.t3.codes
+DOMAIN,relay.t3.codes
+DOMAIN-SUFFIX,t3coderelay.com
+
 # Cloud / Infrastructure
 DOMAIN-SUFFIX,dash.cloudflare.com
 DOMAIN-SUFFIX,api.cloudflare.com
