@@ -28,6 +28,9 @@ DOMAIN-SUFFIX,cursorapi.com
 # 覆盖截图中的动态实例域名 *.us13.cursorvm.com
 DOMAIN-SUFFIX,cursorvm.com
 
+# ====== Factory Droid ======
+DOMAIN-SUFFIX,factory.ai
+
 # ====== Windsurf / Codeium ======
 DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,windsurf.com
